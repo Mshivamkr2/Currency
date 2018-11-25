@@ -1,9 +1,10 @@
-# Currency
-To find minimum currency of any denominations type
+
+/*To find minimum currency of any denominations type*/
 #include<stdio.h>
 int main()
 {
 int amt,i,j,s=0,n;
+    printf("Enter your amount please!/n");
 scanf("%d",&amt);
 printf("enter the no. of denominations\n");
 scanf("%d",&n);
@@ -12,7 +13,7 @@ printf("enter the denominations\n");
 for(i=0;i<n;i++)
 {
     scanf("%d",&d[i]);
-}ajay kumar
+}
 int temp;
 for(j=0;j<n;j++)
  {
